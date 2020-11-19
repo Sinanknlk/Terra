@@ -7,7 +7,7 @@ variable "image_name" {
   description = "Image for container."
     default     = {
     dev  = "ghost:latest"
-    prod = "ghost:alpine"
+    prod = "ghost:latest"
   }
 }
 
